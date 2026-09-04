@@ -1,0 +1,43 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-image: url(gifs/Glow\ Black\ And\ White\ GIF\ by\ xponentialdesign.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tela-login{
+    background: linear-gradient(to bottom,rgb(102, 60, 102),rgb(41, 39, 39));
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border-radius: 20px;
+    #botao-prosseguir{
+        background-color: black; /* Cor de fundo */
+        color: white;             /* Cor do texto */
+        padding: 10px 20px;       /* Espaçamento interno */
+        border: none;             /* Remove a borda padrão */
+        border-radius: 5px;       /* Arredonda os cantos */
+        font-size: 15px;          /* Tamanho da fonte */
+        cursor: pointer;          /* Muda o cursor para indicar clique */
+        margin-top: 24px;
+    }
+    #caixa-texto{
+        width: 70%;
+        padding: 8px 12px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #f9f9f9;
+        outline: none;
+    }
+    #dados{
+        margin-right: 255px;
+    }
+}
