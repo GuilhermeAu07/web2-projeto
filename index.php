@@ -11,7 +11,7 @@
     <h1>Dados do Cliente</h1>
 
     <!-- Formulário para entrada dos dados -->
-    <form>
+    <form method="POST">
       <?php 
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $email = htmlspecialchars($_POST["email"]);
